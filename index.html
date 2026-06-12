@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FamiHub - Kết nối Yêu thương</title>
+    <meta name="description"
+        content="Nền tảng quản lý gia đình toàn diện, giao việc nhà, đổi thưởng và gợi ý bữa ăn AI.">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="logo-modified.png">
+    <!-- Google Fonts: Outfit -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <!-- Ionicons -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</head>
+
+<body>
+    <!-- Background Animated Blobs -->
+    <div class="blob blob-1"></div>
+    <div class="blob blob-2"></div>
+    <div class="blob blob-3"></div>
+
+    <!-- Navigation -->
+    <nav class="glass-nav">
+        <div class="logo">
+            <ion-icon name="home"></ion-icon>
+            FamiHub
+        </div>
+        <div class="nav-links">
+            <a href="#features">Tính năng</a>
+            <a href="#premium">Gói Premium</a>
+            <a href="#download" class="btn-primary">Tải Ứng Dụng</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="hero-content reveal active">
+            <h1>Kết nối Gia đình <br><span class="gradient-text">Qua Từng Thói Quen Nhỏ</span></h1>
+            <p>Trải nghiệm cách tốt nhất để phân công công việc nhà, khuyến khích sự tự lập ở con cái và chăm chút từng
+                bữa ăn cho cả gia đình nhờ công nghệ AI.</p>
+            <div class="hero-buttons">
+                <a href="#download" class="btn-primary glow-effect">
+                    <ion-icon name="logo-apple"></ion-icon> App Store
+                </a>
+                <a href="#download" class="btn-secondary glow-effect">
+                    <ion-icon name="logo-google-playstore"></ion-icon> Google Play
+                </a>
+            </div>
+        </div>
+        <div class="hero-mockup reveal active">
+            <!-- Glassmorphism Phone Mockup -->
+            <div class="phone-mockup glass-card">
+                <div class="mockup-header">
+                    <ion-icon name="person-circle"></ion-icon>
+                    <div>
+                        <strong>Gia đình Gấu 🐻</strong>
+                        <span>4 thành viên</span>
+                    </div>
+                </div>
+                <div class="mockup-body">
+                    <div class="task-item">
+                        <div class="task-icon green"><ion-icon name="checkmark-done"></ion-icon></div>
+                        <div class="task-info">
+                            <strong>Dọn phòng ngủ</strong>
+                            <span>Con nộp bài • Chờ duyệt</span>
+                        </div>
+                        <div class="task-points">+10 ⭐</div>
+                    </div>
+                    <div class="task-item">
+                        <div class="task-icon orange"><ion-icon name="restaurant"></ion-icon></div>
+                        <div class="task-info">
+                            <strong>Thực đơn tối nay</strong>
+                            <span>Gợi ý bởi FamiAI</span>
+                        </div>
+                    </div>
+                    <div class="task-item">
+                        <div class="task-icon purple"><ion-icon name="gift"></ion-icon></div>
+                        <div class="task-info">
+                            <strong>Quà đổi thưởng</strong>
+                            <span>Vé xem phim cuối tuần</span>
+                        </div>
+                        <div class="task-points">-50 ⭐</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+        <h2 class="section-title reveal">Tính năng cốt lõi</h2>
+        <p class="section-subtitle reveal">Được thiết kế tỉ mỉ để mang lại niềm vui và sự gắn kết cho tổ ấm của bạn.</p>
+
+        <div class="feature-grid">
+            <div class="feature-card glass-card reveal">
+                <div class="feature-icon"><ion-icon name="list-circle"></ion-icon></div>
+                <h3>Giao Việc & Chấm Điểm</h3>
+                <p>Bố mẹ dễ dàng giao nhiệm vụ, các con tự giác thực hiện và nộp ảnh báo cáo để nhận điểm thưởng mỗi
+                    ngày.</p>
+            </div>
+            <div class="feature-card glass-card reveal">
+                <div class="feature-icon"><ion-icon name="trophy"></ion-icon></div>
+                <h3>Cửa hàng Phần thưởng</h3>
+                <p>Khuyến khích con tự lập bằng cách cho phép con dùng điểm thưởng để đổi lấy những phần quà do bố mẹ tự
+                    tay tạo.</p>
+            </div>
+            <div class="feature-card glass-card reveal">
+                <div class="feature-icon"><ion-icon name="fast-food"></ion-icon></div>
+                <h3>Gợi ý Bữa ăn Thông minh</h3>
+                <p>App tự ghi nhận khẩu vị từng thành viên để gợi ý thực đơn phù hợp, xoá bỏ nỗi lo "Hôm nay ăn gì?".
+                </p>
+            </div>
+            <div class="feature-card glass-card reveal">
+                <div class="feature-icon"><ion-icon name="calendar-number"></ion-icon></div>
+                <h3>Lịch Gia đình Chung</h3>
+                <p>Tạo và nhắc nhở các sự kiện quan trọng, sinh nhật, hay các chuyến đi dã ngoại của gia đình.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Premium Section -->
+    <section id="premium" class="premium-section reveal">
+        <div class="premium-glass glass-card">
+            <h2 class="section-title">Trải nghiệm FamiHub Premium</h2>
+            <p class="section-subtitle" style="margin-bottom: 0;">Mở khoá toàn bộ giới hạn, tận hưởng tiện ích cao cấp
+                nhất.</p>
+            <div class="pricing-table">
+                <div class="price-plan reveal">
+                    <h3>FREE</h3>
+                    <h2>0đ<span>/tháng</span></h2>
+                    <ul>
+                        <li><ion-icon name="checkmark-circle"></ion-icon> Tối đa 3 thành viên</li>
+                        <li><ion-icon name="checkmark-circle"></ion-icon> Tối đa 5 công việc/ngày</li>
+                        <li><ion-icon name="checkmark-circle"></ion-icon> Chỉ có phần thưởng cố định</li>
+                    </ul>
+                    <a href="#download" class="btn-secondary">Đang sử dụng</a>
+                </div>
+                <div class="price-plan reveal">
+                    <h3>STARTER</h3>
+                    <h2>79.000đ<span>/tháng</span></h2>
+                    <ul>
+                        <li><ion-icon name="checkmark-circle"></ion-icon> Tối đa 5 thành viên</li>
+                        <li><ion-icon name="checkmark-circle"></ion-icon> Không giới hạn công việc</li>
+                        <li><ion-icon name="checkmark-circle"></ion-icon> Báo cáo học tập của con</li>
+                    </ul>
+                    <a href="#download" class="btn-secondary">Nâng cấp ngay</a>
+                </div>
+                <div class="price-plan highlight reveal">
+                    <div class="badge">Phổ biến nhất</div>
+                    <h3>FAMILY</h3>
+                    <h2>119.000đ<span>/tháng</span></h2>
+                    <ul>
+                        <li><ion-icon name="checkmark-circle"></ion-icon> Không giới hạn thành viên</li>
+                        <li><ion-icon name="checkmark-circle"></ion-icon> Không giới hạn công việc</li>
+                        <li><ion-icon name="checkmark-circle"></ion-icon> Thực đơn AI thông minh</li>
+                        <li><ion-icon name="checkmark-circle"></ion-icon> Đồng bộ Lịch gia đình</li>
+                        <li><ion-icon name="checkmark-circle"></ion-icon> Quản lý Shopping List</li>
+                        <li><ion-icon name="checkmark-circle"></ion-icon> Báo cáo học tập của con</li>
+                        <li><ion-icon name="checkmark-circle"></ion-icon> Hệ thống Thành tựu & Huy hiệu</li>
+                    </ul>
+                    <a href="#download" class="btn-primary">Nâng cấp ngay</a>
+                </div>
+                <div class="price-plan reveal">
+                    <div class="badge" style="background: linear-gradient(90deg, #4ECDC4, #2E8B57);">Tiết kiệm 30%</div>
+                    <h3>YEARLY</h3>
+                    <h2>1.199.000đ<span>/năm</span></h2>
+                    <ul>
+                        <li><ion-icon name="checkmark-circle"></ion-icon> Không giới hạn thành viên</li>
+                        <li><ion-icon name="checkmark-circle"></ion-icon> Không giới hạn công việc</li>
+                        <li><ion-icon name="checkmark-circle"></ion-icon> Thực đơn AI thông minh</li>
+                        <li><ion-icon name="checkmark-circle"></ion-icon> Đồng bộ Lịch gia đình</li>
+                        <li><ion-icon name="checkmark-circle"></ion-icon> Quản lý Shopping List</li>
+                        <li><ion-icon name="checkmark-circle"></ion-icon> Báo cáo học tập của con</li>
+                        <li><ion-icon name="checkmark-circle"></ion-icon> Hệ thống Thành tựu & Huy hiệu</li>
+                    </ul>
+                    <a href="#download" class="btn-secondary">Nâng cấp ngay</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Download & Footer Section -->
+    <footer id="download" class="reveal">
+        <div class="footer-content glass-card">
+            <h2>Sẵn sàng kết nối gia đình bạn?</h2>
+            <p>Tải FamiHub miễn phí ngay hôm nay và bắt đầu hành trình xây dựng những thói quen tốt.</p>
+            <div class="hero-buttons">
+                <a href="#" class="btn-primary glow-effect"><ion-icon name="logo-apple"></ion-icon> Tải cho iOS</a>
+                <a href="#" class="btn-secondary glow-effect"><ion-icon name="logo-android"></ion-icon> Tải cho
+                    Android</a>
+            </div>
+            <div class="contact-info"
+                style="margin-top: 20px; display: flex; flex-wrap: wrap; gap: 20px; font-size: 1.05rem; justify-content: center;">
+                <a href="https://www.facebook.com/famihub.vn" target="_blank"
+                    style="color: var(--primary); text-decoration: none; display: flex; align-items: center; gap: 6px; font-weight: 600;">
+                    <ion-icon name="logo-facebook"></ion-icon> facebook.com/famihub.vn
+                </a>
+                <a href="https://www.tiktok.com/@famihub_" target="_blank"
+                    style="color: #ff0050; text-decoration: none; display: flex; align-items: center; gap: 6px; font-weight: 600;">
+                    <ion-icon name="logo-tiktok"></ion-icon> @famihub_
+                </a>
+                <a href="mailto:famihubvn@gmail.com"
+                    style="color: var(--secondary); text-decoration: none; display: flex; align-items: center; gap: 6px; font-weight: 600;">
+                    <ion-icon name="mail"></ion-icon> famihubvn@gmail.com
+                </a>
+            </div>
+            <p class="copyright">© 2026 FamiHub App. Được phát triển với ❤️ cho gia đình Việt.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
